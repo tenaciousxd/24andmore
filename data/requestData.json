@@ -1,0 +1,96 @@
+{	"tests":[
+  {
+    "type": "Admixture Proportions",
+    "parentUrl":"https://genesis.gedmatch.com/fcgi-bin/ap_mix2t_blk.fcgi",
+    "dataUrl":"enabled=INT&delta=STRING&kit_num=STRING&code=INT&ethnicity=OPTSTRING&xsubmit=Continue",
+    "spreadsheetUrl":"https://genesis.gedmatch.com/pop_avgs2.php",
+    "spreadsheetData":"xsubmit=Spreadsheet&enabled=INT&code=INT",
+    "oracle4Url":"https://genesis.gedmatch.com/fcgi-bin/Oracle4_2c.fcgi",
+    "oracle4Data":"enabled=2&code=111&kit_num=SZ9150895&admix%5B1%5D=0.000000&...admix%5Bn%5D=X.XXXXX&mincount=2&xsubmit=Oracle-4",
+    "currentDelta":"1E-6"
+  },
+  {
+    "type": "Admixture Proportions by Chromosome",
+    "parentUrl":"https://genesis.gedmatch.com/fcgi-bin/ap_mix2tw_blk.fcgi",
+    "dataUrl":"enabled=INT&delta=STRING&kit_num=STRING&code=INT&xsubmit=Continue",
+    "currentDelta":"1E-6"
+  }
+],
+  "projects":{
+    "MDLP Project":{
+      "enabled":2,
+      "calculators":{
+        "MDLP K11 Modern":111,
+        "MDLP K16 Modern":110,
+        "MDLP K23b":81,
+        "MDLP World-22":50,
+        "MDLP World":37
+      }
+    },
+    "Eurogenes":{
+      "enabled":3,
+      "calculators":{
+        "Eurogenes K13":68,
+        "Eurogenes EUtest V2 K15":66,
+        "Eurogenes_ANE K7": 78,
+        "Eurogenes K9b": 64,
+        "Eurogenes K9": 18,
+        "Eurogenes K10": 17,
+        "Eurogenes K11": 15,
+        "Eurogenes K12": 16,
+        "Eurogenes K12b":21,
+        "Eurogenes K36":63,
+        "Eurogenes Hunter_Gatherer vs. Farmer": 22,
+        "Jtest": 57,
+        "EUtest": 60
+      }
+    },
+    "Dodecad":{
+      "enabled":5,
+      "calculators":{
+        "Dodecad V3": 26,
+        "Africa9": 3,
+        "World9": 5,
+        "Dodecad K7b": 24,
+        "Dodecad K12b": 25
+      }
+    },
+    "HarappaWorld":{
+      "enabled": 7,
+      "calculators":{
+        "HarappaWorld":34
+      }
+    },
+    "Ethiohelix":{
+      "enabled": 9,
+      "calculators":{
+        "EthioHelix K10 + French": 71,
+        "Ethiohelix K10 + Japanese": 72,
+        "Ethiohelix K10 + Palestinian": 73,
+        "Ethiohelix K10 Africa Only": 70
+      }
+    },
+    "puntDNAL":{
+      "enabled": 10,
+      "calculators":{
+        "puntDNAL K10 Ancient": 97,
+        "puntDNAL K12 Ancient": 102,
+        "puntDNAL K12 Modern": 103,
+        "puntDNAL K13 Global": 113,
+        "puntDNAL K15": 88,
+        "puntDNAL K8 African Only": 84
+      }
+    },
+    "GedrosiaDNA":{
+      "enabled": 11,
+      "calculators":{
+        "Eurasia K9 ASI": 100,
+        "Gedrosia K3": 94,
+        "Eurasia K14 Neolithic": 90,
+        "Gedrosia K12": 85,
+        "Ancient Eurasia K6": 106,
+        "Near East Neolithic K13": 104
+      }
+    }
+  }
+}
